@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Inconsolata:wght@400;500&family=Playfair+Display&display=swap');
+#Contenido{
+    font-family: 'Playfair Display', serif;
+}
+*{
+    font-family: 'Inconsolata', monospace;
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
