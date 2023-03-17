@@ -24,14 +24,11 @@ function Body() {
         </div>
       </div>
       <div className="flex gap-3 text-black justify-center items-center text-2xl">
-        <a href="" className="mb-8">
+        <a href="https://www.instagram.com/andressfv_" className="mb-8">
           <BsInstagram />
         </a>
-        <a href="" className="mb-8">
+        <a href="https://github.com/andresshz" className="mb-8">
           <BsGithub />
-        </a>
-        <a href="" className="mb-8">
-          <MdAttachEmail />
         </a>
       </div>
       <div className="flex flex-wrap justify-center items-center gap-2">
@@ -42,21 +39,6 @@ function Body() {
               <label htmlFor={elemento.nombre} className="btn btn-xs w-full">
                 {elemento.nombre}
               </label>
-
-              <input type="checkbox" id={elemento.nombre} className="modal-toggle" />
-              <div className="modal">
-                <div className="modal-box">
-                  <h3 className="font-bold text-lg">{elemento.nombre}</h3>
-                  <p className="py-4">
-                    {elemento.descripcion}
-                  </p>
-                  <div className="modal-action">
-                    <label htmlFor={elemento.nombre} className="btn">
-                      OK
-                    </label>
-                  </div>
-                </div>
-              </div>
             </div>
           );
         })}

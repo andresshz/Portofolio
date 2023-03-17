@@ -19,15 +19,13 @@ const Footer = () => {
         <div>
           <span className="footer-title">Redes sociales</span>
           <div className="grid grid-flow-col gap-4 text-lg">
-            <a href="" className="mb-8">
+            <a href="https://www.instagram.com/andressfv_" className="mb-8">
               <BsInstagram />
             </a>
-            <a href="" className="mb-8">
+            <a href="https://github.com/andresshz" className="mb-8">
               <BsGithub />
             </a>
-            <a href="" className="mb-8">
-              <MdAttachEmail />
-            </a>
+
           </div>
         </div>
       </footer>
