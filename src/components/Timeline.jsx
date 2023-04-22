@@ -25,7 +25,7 @@ const Timeline = () => {
           <p>
             <span className="font-semibold flex">
               <TbAsteriskSimple />
-              Universidad Don Bosco: 2022 - 2025:
+              Universidad Don Bosco: 2022 : Actualmente
             </span>{" "}
             Estudiante actual en la Universidad Don Bosco, con la carrera
             Tecnico en Ingenieria en Ciencias de la Computación culminada, y
